@@ -22,7 +22,7 @@
 ---
 
 ## Requirements
-- GNOME Shell 45/46/47/48 (compatible with 48; check `metadata.json`).
+- GNOME Shell 48 (compatible with 48; check `metadata.json`).
 - GJS (Gnome JavaScript bindings).
 - `glib-compile-schemas` to compile the GSettings schema if you are going to package.
 
@@ -32,5 +32,5 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/youruser/study-timer.git
-cd study-timer
+git clone https://github.com/dalt-builds/Pomodoro.git
+cd Pomodoro
