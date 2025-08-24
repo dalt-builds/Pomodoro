@@ -1,2 +1,36 @@
-# Pomodoro
-Pomodoro is a GNOME Shell extension that integrates the Pomodoro technique directly into the top bar. It allows you to configure the duration of work sessions and breaks (short/long), displays notifications when sessions start and end, and records study time and completed sessions for simple statistics.
+# Pomodoro — GNOME Shell Extension
+
+**Pomodoro** is a lightweight extension for GNOME Shell that brings the *Pomodoro* technique to the top panel. It allows you to set up work sessions and breaks, display notifications, and keep a simple record of study time.
+
+---
+
+## Main features
+- Pomodoro timer on the panel.
+- Configurable sessions: work, short break, long break.
+- Notifications at the start/end of sessions.
+- Counter for time studied and sessions completed (persistent via GSettings).
+- Integrated preferences to adjust durations.
+- Lightweight and non-intrusive.
+
+---
+
+## Screenshots
+*(Add images to the `screenshots/` folder and link them here)*
+- `screenshots/panel.png` — indicator in the panel
+- `screenshots/prefs.png` — preferences window
+
+---
+
+## Requirements
+- GNOME Shell 45/46/47/48 (compatible with 48; check `metadata.json`).
+- GJS (Gnome JavaScript bindings).
+- `glib-compile-schemas` to compile the GSettings schema if you are going to package.
+
+---
+
+## Installation (developer / local testing)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/youruser/study-timer.git
+cd study-timer
