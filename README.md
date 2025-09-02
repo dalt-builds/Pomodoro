@@ -14,14 +14,6 @@
 
 ---
 
-## Screenshots
-- `<img width="48" height="29" alt="image" src="https://github.com/user-attachments/assets/652e0686-80a9-4760-ab4e-6b5816bd4242" />
-` — indicator in the panel
-- `<img width="304" height="218" alt="image" src="https://github.com/user-attachments/assets/e93b6fb1-9127-42f2-aaa4-6aa6c954bbd1" />
-` — preferences window
-
----
-
 ## Requirements
 - GNOME Shell 48 (compatible with 48; check `metadata.json`).
 - GJS (Gnome JavaScript bindings).
