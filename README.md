@@ -19,11 +19,3 @@
 - GJS (Gnome JavaScript bindings).
 - `glib-compile-schemas` to compile the GSettings schema if you are going to package.
 
----
-
-## Installation (developer / local testing)
-
-1. Clone the repository:
-```bash
-git clone https://github.com/dalt-builds/Pomodoro..git
-cd Pomodoro.
