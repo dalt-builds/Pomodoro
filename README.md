@@ -25,5 +25,5 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dalt-builds/Pomodoro.git
-cd Pomodoro
+git clone https://github.com/dalt-builds/Pomodoro..git
+cd Pomodoro.
