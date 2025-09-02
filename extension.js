@@ -6,6 +6,7 @@ import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 import St from 'gi://St';
 import GLib from 'gi://GLib';
 import Gio from 'gi://Gio';
+import Clutter from 'gi://Clutter';
 
 export default class PomodoroExtension extends Extension {
     enable() {
@@ -20,7 +21,12 @@ export default class PomodoroExtension extends Extension {
 
         // Indicator on the panel
         this._indicator = new PanelMenu.Button(0.0, this.metadata.name, false);
-        this._label = new St.Label({ text: 'Pomodoro' });
+        this._label = new St.Label({
+        text: 'Pomodoro',
+        y_align: Clutter.ActorAlign.CENTER,
+        x_align: Clutter.ActorAlign.CENTER,
+        style_class: 'pomodoro-label'
+        });
         this._indicator.add_child(this._label);
 
         // Menu
