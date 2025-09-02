@@ -1,0 +1,49 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pomodoro"
+          path="/org/gnome/shell/extensions/pomodoro/">
+
+    <key name="work-duration" type="i">
+      <default>25</default>
+      <summary>Work duration (min)</summary>
+      <description>Minutes per work session (Pomodoro).</description>
+    </key>
+
+    <key name="short-break" type="i">
+      <default>5</default>
+      <summary>Short break (min)</summary>
+      <description>Minutes of short break.</description>
+    </key>
+
+    <key name="long-break" type="i">
+      <default>15</default>
+      <summary>Long break (min)</summary>
+      <description>Minutes of long break.</description>
+    </key>
+
+    <key name="cycles-before-long" type="i">
+      <default>4</default>
+      <summary>Cycles before long break</summary>
+      <description>Number of Pomodoros before a long break.</description>
+    </key>
+
+    <key name="enable-notifications" type="b">
+      <default>true</default>
+      <summary>Enable notifications</summary>
+      <description>If enabled, the extension will send notifications.</description>
+    </key>
+
+    <key name="pomodoro-seconds" type="u">
+      <default>0</default>
+      <summary>Total study time (s)</summary>
+      <description>Total accumulated study time in seconds (persistent).</description>
+    </key>
+
+    <key name="sessions-completed" type="u">
+      <default>0</default>
+      <summary>Completed sessions</summary>
+      <description>Total number of completed work sessions.</description>
+    </key>
+
+  </schema>
+</schemalist>
+

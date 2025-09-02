@@ -1,0 +1,6 @@
+/* Este CSS puede usarse para widgets GTK en prefs o si enlazas desde el extension.js */
+.study-timer-label {
+    font-weight: 700;
+    font-size: 12px;
+}
+
