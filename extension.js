@@ -56,7 +56,11 @@ export default class PomodoroExtension extends Extension {
         if (this._timerId) {
             GLib.Source.remove(this._timerId);
             this._timerId = 0;
-        }
+        } 
+        
+        this._label?.destroy();
+        this._label = null;
+
         if (this._indicator) {
             this._indicator.destroy();
             this._indicator = null;
