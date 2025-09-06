@@ -1,9 +1,9 @@
 {
-  "uuid": "Pomodoro.@dalt-builds.com",
-  "name": "Pomodoro.",
+  "uuid": "pomodoro-timer@dalt-builds.com",
+  "name": "Pomodoro Timer",
   "description": "Pomodoro timer that tracks study time and sends notifications.",
   "shell-version": ["48"],
   "settings-schema": "org.gnome.shell.extensions.pomodoro",
-  "url": "https://github.com/dalt-builds/Pomodoro."
+  "url": "https://github.com/dalt-builds/Pomodoro-Timer"
 }
 
